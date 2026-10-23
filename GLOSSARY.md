@@ -1,0 +1,22 @@
+# Glossary
+
+- **IOC:** indicator of compromise.
+- **STIX:** Structured Threat Information Expression.
+- **TAXII:** transport protocol for STIX.
+- **Attestation:** signed claim by an identifiable party.
+- **Transparency log:** append-only, publicly auditable log of signatures.
+- **PSI:** private set intersection.
+- **TLP:** Traffic Light Protocol for sharing scope.
+- **Warning list:** list of known-benign items to avoid false positives.
+- **Extension definition (STIX 2.1):** an object that publishes a schema for new observable types or properties.
+- **Sighting:** a STIX object recording that an indicator was observed, where and when.
+- **TAXII collection:** a named set of STIX objects on a TAXII server that clients poll or add to.
+- **to_ids:** MISP attribute flag marking a value as suitable for automated detection.
+- **DSSE:** Dead Simple Signing Envelope, a wrapper for signed statements.
+- **Keyless signing:** Sigstore signing with a short-lived certificate bound to an OIDC identity.
+- **Workload identity:** an OIDC identity issued to an automated job (e.g. CI) rather than a person.
+- **Retraction:** a signed statement withdrawing an earlier claim.
+- **Off-chain attestation:** an EIP-712 signed attestation published outside the chain but verifiable against an on-chain schema.
+- **Decay:** reduction of an indicator's confidence over time without new sightings.
+- **Corroboration threshold:** the number of independent trusted producers required before a high-impact action.
+- **Sybil producer:** one of many fake identities controlled by one party to inflate apparent agreement.
